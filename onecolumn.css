@@ -1,0 +1,26 @@
+body {
+  background:black;
+  font-family: Helvetica;
+  margin:0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  padding-top: 50px;
+}
+
+
+#container {
+ background:#e8e8e8;
+ margin: 0 auto; /*use this for centering*/
+ width: 800px;
+}
+
+.twitter-timeline {
+  margin-left:150px;
+  margin-right:150px;
+  position: absolute;
+  padding: 10px;
+}
+

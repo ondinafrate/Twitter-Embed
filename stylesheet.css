@@ -1,47 +1,16 @@
 body {
   background:black;
+  font-family: Helvetica;
 }
 
-h1 {
-  font-family: Helvetica;
+#mainlinks {
   text-align: center;
-  font-size: 48px;
+  font-size: 64px;
   padding-top: 50px;
+  color: white;
+  margin-left: 100px;
 }
 
-#container1 {
- background:#e8e8e8;
- width:50%;
- float:left;
- /* margin: auto;*/ /*use this for centering*/
- /* width: 800px;*/
- /* border: 3px solid green;*/
-}
-
-.twitter-timeline {
-  margin-left:150px;
-  margin-right:150px;
-  position: absolute;
-  padding: 10px;
-}
-
-#container2 {
-  width:50%;
-  color:white;
-  display:inline-block;
-  float:right;
-  height:100%;
-}
-
-#about {
-  font-size:36px;
-}
-
-p, #instructions {
-  font-family: Helvetica;
-  font-size:20px;
-  line-height:1.5;
-  margin-left:70px;
-  margin-right: 60px;
-  letter-spacing:1px;
+#mainlinks:hover {
+  color:#9b9b9b;
 }
